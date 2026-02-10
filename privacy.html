@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حریم خصوصی - BimarzNetStar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #0A0E27;
+            --accent: #00D9FF;
+            --secondary: #6C63FF;
+            --bg-dark: #0F1419;
+            --bg-card: #1A1F2E;
+            --text-light: #E8E9ED;
+            --text-muted: #A0A8B8;
+            --border: rgba(108, 99, 255, 0.15);
+            --success: #00FF88;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        header {
+            padding: 1.5rem 5%;
+            border-bottom: 1px solid var(--border);
+            background: rgba(10, 14, 39, 0.7);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 1.3rem;
+            font-weight: 900;
+            color: var(--accent);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--accent), var(--secondary));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 5%;
+        }
+
+        .page-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 3rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, var(--text-light), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+
+        .last-update {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            color: var(--accent);
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            color: var(--text-muted);
+        }
+
+        .highlight-box {
+            background: rgba(0, 217, 255, 0.05);
+            border-left: 4px solid var(--accent);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+        }
+
+        .highlight-box h3 {
+            color: var(--success);
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 0.5rem 0 0.5rem 2rem;
+            position: relative;
+            color: var(--text-muted);
+        }
+
+        ul li::before {
+            content: '✓';
+            position: absolute;
+            right: 0;
+            color: var(--success);
+            font-weight: bold;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            background: rgba(0, 217, 255, 0.1);
+            border: 1px solid var(--accent);
+            border-radius: 8px;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .back-link:hover {
+            background: rgba(0, 217, 255, 0.2);
+            transform: translateX(-5px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-icon">B</div>
+            <span>BimarzNetStar</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="page-card">
+            <h1>🔒 حریم خصوصی و امنیت</h1>
+            <p class="last-update">آخرین به‌روزرسانی: بهمن ۱۴۰۴</p>
+
+            <div class="highlight-box">
+                <h3>🛡️ تعهد ما به امنیت شما</h3>
+                <p>BimarzNetStar متعهد به حفاظت از حریم خصوصی و امنیت اطلاعات شماست. ما هیچ‌گونه اطلاعات شخصی یا مالی شما را ذخیره، فروش یا به اشتراک نمی‌گذاریم.</p>
+            </div>
+
+            <h2>📊 اطلاعاتی که جمع‌آوری می‌کنیم</h2>
+            <p>برای تکمیل سفارش شما، تنها اطلاعات زیر را دریافت می‌کنیم:</p>
+            <ul>
+                <li>Transaction ID (شناسه تراکنش کریپتو)</li>
+                <li>اطلاعات تماس (ایمیل یا تلگرام)</li>
+                <li>توضیحات اختیاری سفارش</li>
+            </ul>
+
+            <h2>🔐 چگونه اطلاعات شما را محافظت می‌کنیم</h2>
+            <ul>
+                <li><strong>رمزنگاری ارتباطات:</strong> تمام اطلاعات از طریق پروتکل امن HTTPS منتقل می‌شود</li>
+                <li><strong>عدم ذخیره‌سازی:</strong> هیچ اطلاعاتی در پایگاه داده ذخیره نمی‌شود</li>
+                <li><strong>ارتباط مستقیم:</strong> اطلاعات فقط به تیم پشتیبانی ما ارسال می‌شود</li>
+                <li><strong>محرمانگی کامل:</strong> هیچ شخص ثالثی به اطلاعات شما دسترسی ندارد</li>
+            </ul>
+
+            <h2>🔒 امنیت پرداخت‌های کریپتو</h2>
+            <p><strong>نکته مهم:</strong> BimarzNetStar هرگز کلیدهای خصوصی، Seed Phrase یا رمز عبور کیف پول شما را درخواست نمی‌کند!</p>
+            <ul>
+                <li>فقط آدرس عمومی کیف پول نمایش داده می‌شود</li>
+                <li>شما کنترل کامل بر دارایی‌های خود دارید</li>
+                <li>پرداخت‌ها مستقیماً از کیف پول شما انجام می‌شود</li>
+                <li>ما فقط تراکنش را تأیید می‌کنیم، نه کنترل می‌کنیم</li>
+            </ul>
+
+            <h2>🌐 استفاده از اطلاعات</h2>
+            <p>اطلاعات شما تنها برای موارد زیر استفاده می‌شود:</p>
+            <ul>
+                <li>تأیید و پردازش سفارش شما</li>
+                <li>ارتباط در مورد وضعیت سفارش</li>
+                <li>ارائه پشتیبانی فنی</li>
+            </ul>
+
+            <div class="highlight-box">
+                <h3>✅ تضمین‌های ما</h3>
+                <ul>
+                    <li>هرگز اطلاعات شما را به اشخاص ثالث نمی‌فروشیم</li>
+                    <li>هیچ ایمیل تبلیغاتی ارسال نمی‌کنیم</li>
+                    <li>اطلاعات مالی شما ذخیره نمی‌شود</li>
+                    <li>می‌توانید هر زمان درخواست حذف اطلاعات کنید</li>
+                </ul>
+            </div>
+
+            <h2>📞 تماس با ما</h2>
+            <p>اگر سوالی درباره حریم خصوصی خود دارید، می‌توانید با ما تماس بگیرید:</p>
+            <p style="color: var(--accent); font-weight: 600;">
+                تلگرام: @BimarzNetStar_Support<br>
+                ایمیل: mohamedhamdola@outlook.com
+            </p>
+
+            <a href="v
